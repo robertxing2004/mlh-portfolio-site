@@ -14,7 +14,7 @@ jobs:
         run: |
           mkdir -p ~/.ssh/
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy-key
-          chmod 600 ~/ssh/deploy-key
+          chmod 600 ~/.ssh/deploy-key
           cat >> ~/.ssh/config <<END
           Host my-vps
             HostName $SSH_IP

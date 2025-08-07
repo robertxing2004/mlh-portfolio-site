@@ -40,7 +40,7 @@ def robert():
         title="Robert Xing",
         url=os.getenv("URL"),
         picture="./static/img/robert.jpg",
-        name="Robert Xing",
+        name="ROBERT XING",
         travel_map="https://www.google.com/maps/d/u/0/embed?mid=1oJDJsnCdi9E7MYmkzrBWCNJ_l3Qb8cw&ehbc=2E312F",
         bio="Hi! I'm an incoming 4th year student at Western University, completing a dual degree in software engineering and Ivey HBA. "
         "I am super excited to gain some PE experience and meet some incredibly talented people through the MLH Fellowship!",
